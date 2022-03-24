@@ -16,7 +16,7 @@ Python Code:
 3. Update email in the cfg.py file SMTP_EMAIL = "yourusername@example.com" to something relevant
 4. Run main.py , Initial run needs to be on a machine with a GUI Browser, see next step..
 5. Google will prompt you to Authorise the running app against your email account
-6. If successful, you should see both token.json and pickle.json files created in the project directory, and a test smtp email sent to your configured email address.
+6. If successful, you should see both token.json and token.pcikle files created in the project directory, and a test smtp email sent to your configured email address.
 
 
 *It is highly recommended to use a 'Google Workspace' account and flag the app as type 'INTERNAL' unless you plan to get the app fully certified for External users by Google. Private gmail address accounts can request tokens but they currently expire within 72hours, unless the app undergoes a certification process with Google for External users. Google restricts the INTERNAL category to paid Workspace users apparently.
