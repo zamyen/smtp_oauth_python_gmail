@@ -110,7 +110,7 @@ def gmail_authenticate():
 
 def send_smtp_oauth(self, recipient, subject, content):
     """
-    Sends typical SMTP request, additionally with the latest OAUTH bearer token information inserted within the Header
+    Sends typical SMTP request, additionally with the latest OAUTH bearer token information sent to the SMTP session
     """
 
     logger.info("In sendmailoauth, attempting gmail authenticate")
